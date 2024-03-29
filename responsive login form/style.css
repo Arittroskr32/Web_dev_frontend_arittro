@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(26, 240, 158);
+    overflow: hidden;
+}
+.container{
+    max-width: 440px;
+    padding: 0px 20px;
+    margin: 170px auto;
+}
+.wrapper{
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}
+.wrapper .title{
+    line-height: 80px;
+    background: rgb(34, 218, 172);
+    padding-left: 135px;
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 650;
+    
+}
+.wrapper form{
+    padding: 20px 20px 25px 25px;
+}
+.wrapper form .row{
+    height: 40px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid rgb(4, 252, 177);
+    font-size: 14px;
+}
+form .row input:focus{
+    border-color: rgb(39, 219, 159);
+    box-shadow: 0 0 2px 2px;
+    transition: all 0.3s ease;
+}
+.wrapper form .row i{
+    position: absolute;
+    height: 100%;
+    width: 47px;
+    background: rgb(34, 218, 172);
+    border: 1px solid rgb(4, 250, 217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    
+}
+.wrapper form .button input{
+    padding-left: 0;
+    background: rgb(34, 218, 172);
+    border: 1px solid rgb(4, 250, 217);
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 650;
+}
+.wrapper form .pass{
+    margin: -5px 0 5px 0;
+}
+.wrapper form .pass a{
+    color: rgb(34, 218, 172);
+    text-decoration: none;
+    font-weight: 450;
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+.wrapper form .sign-up{
+    text-align: center;
+}
